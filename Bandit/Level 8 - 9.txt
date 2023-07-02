@@ -1,0 +1,13 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit7 y la contraseña TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+Para este ejercicio nos pide que encontremos la contraseña dentro del archivo data.txt que solo se encuentra una vez, lo que quiere decir que no se repite como 
+las demas.
+
+Podemos ejecutar el comando "sort data.txt" para que nos ordene todas las contraseñas y así solo encontrar la unica contraseña que no se repita y tendriammos
+terminado el ejercicio, pero hay maneras mas eficientes de buscar la contraseña.
+
+    Comando: sort data.txt | uniq -c
+    
+    Descripción: Con el comando sort ordenamos las contraseñas y con uniq -c contamos cuantas veces se repite una misma contraseña.
+
+    Contraseña: EN632PlfYiZbn3PhVK3XOGSlNInNE00t
