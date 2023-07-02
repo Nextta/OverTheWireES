@@ -1,0 +1,19 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit7 y la contraseña z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+Para este nivel nos indica que la contraseña esta almacenada en el archivo data.txt junto a la palabra millionth.
+
+Tambien nos arroja una nueva lista de comando que podríamos necesitar para poder sacar la contraseña. Los comandos son los siguientes:
+
+-man: Man se usa para mostrar el manual de los comandos y saber como usarlos.
+-sort: Ordenar líneas de archivos de texto.
+-uniq: Omite lineas repetidas.
+-strings: Funciona igual que find. Busca caracteres, palabras o textos dentro de un archivo.
+-base64: Codifica o decodifica texto.
+-tr: Convierte o elimina caracteres.
+-tar, gzip, bzip2: Permite almacenar ficheros en un paquete y comprimirlos. Tambien descomprime los archivos.
+
+Aunque nos den todos esos nuevos comandos, en este ejercicio solo vamos a usar el comando grep para buscar la contraseña usando la palabra clave que nos indica.
+
+    Comando: grep -s millionth data.txt
+
+    Contraseña: TESKZC0XvTetK0S9xNwm25STk5iWrBvP
