@@ -1,0 +1,14 @@
+-ls: Nos permite mostrar todos los archivos del directorio actual.
+-pwd: Nos muestra el directorio donde estamos.
+-cd: Nos permite introducir el directorio donde queremos ir.
+-cat: Nos permite leer un archivo de texto.
+-file: Nos indica que tipo de archivo es.
+-du: Nos indica el tamaño del archivo.
+-find: Nos permite buscar un archivo dentro del directorio.
+-man: Man se usa para mostrar el manual de los comandos y saber como usarlos.
+-sort: Ordenar líneas de archivos de texto.
+-uniq: Omite lineas repetidas.
+-strings: Funciona igual que find. Busca caracteres, palabras o textos dentro de un archivo.
+-base64: Codifica o decodifica texto.
+-tr: Convierte o elimina caracteres.
+-tar, gzip, bzip2: Permite almacenar ficheros en un paquete y comprimirlos. Tambien descomprime los archivos.
