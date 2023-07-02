@@ -1,0 +1,9 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit9 y la contraseña G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+
+En este nivel nos piden que optengamos la contraseña almacenada en data.txt que esta cifrada en base64. Para eso solo tendremos que descifrarla.
+
+    Comando: base64 -d data.txt
+
+    Descripción: Con base64 y el parametro -d desciframos el contenido del archivo.
+
+    Contraseña: 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
