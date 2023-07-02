@@ -1,0 +1,4 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit4 y la contraseña 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+
+Nos podian que leyesemos todos los archivos que estaban dentro del directorio inhere hasta encontrar el valido que en este caso era -file07 y la contraseña es:
+	Contraseña: lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR

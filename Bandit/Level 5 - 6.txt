@@ -1,0 +1,13 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit5 y la contraseña lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+Este nivel nos pide encontrar el archivo con la contraseña del siguiente nivel en muchos directorios con muchos archivos con la lisguiente pista:
+	-El archivo tiene que ser human-readable, la conseguimos ver con el comando "ls -h".
+	-El archivo tiene que pesar 1033 bytes, lo vemos con el comando "du -a -b"
+	-El archivo no tiene que ser ejecutable, lo vemos con el comando "ls -l"
+	
+En el directorio inhere ejecutaré el comando "du -a -b" para listar el peso de todos los archivos que estan dentro de todas las carpetas llamadas maybehere. Vamos a seleccionar la carpeta que tengan archivos con peso de 1033 bytes para hacerles un estudio más preciso. 
+
+Las carpetas son:
+-1033    ./maybehere07/.file2 -> Este archivo comple con todas las caracteristicas.
+
+	Contraseña: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU

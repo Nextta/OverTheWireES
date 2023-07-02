@@ -1,0 +1,4 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit3 y la contraseña aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+Nos piden que encontremos un archivo oculto dentro del directorio inhere. Para visualizarlo hemos usado el comando "ls -A" que lista todos los archivos incluso los ocultos. El archivo oculto contiene la contraseña del siguiente nivel:
+	Contraseña: 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe

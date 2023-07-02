@@ -1,0 +1,4 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit2 y la contraseña rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+Nos pide que obtengamos la contraseña del siguiente nivel en un archivo llamado "spaces in this filename" que se encuentra en el directorio home de bandit2. En este caso al ser un archivos con espacios hemos tenido que leerlo de la siguiente forma "cat spaces\ in\ this\ filename", de esta forma podemos leer archivos con espacios. La contraseña que contenia el archivo es la siguiente:
+	Contraseña: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG

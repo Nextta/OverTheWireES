@@ -1,0 +1,4 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit1 y la contraseña NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+Se nos pide que leamos un archivo que es un caracter especial que se encuentra en el home de bandit1. El archivo de llama "-" y para poder leerlo hemos tenido que usar el comendo cat de la siguiente forma " cat < - ". El archivo contiene la contraseña para el siguiente nivel, la contraseña es:
+	Contraseña: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi

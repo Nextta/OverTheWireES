@@ -1,0 +1,38 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit6 y la contraseña P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+Este nivel nos pide encontrar la contraseña del siguiente nivel en algun lugar del servidor y nos proporciona las siguientes caracteristicas del archivo que tenemos que buscar:
+	-Permisos para el usuario bandit7
+	-Permiso para el grupo de usuarios bandit6
+	-Peso del archivo de 33 bytes
+
+Para facilitar la busqueda en este nivel, nos proporciona un nuevo comando:
+
+-grep: Te permite filtrar la informacion que devuelve otros comandos.
+
+Lo primero que haremos es ir al directorio ./ donde se encuentran todas las carpetas del servidor, una vez allí ejecutaremos el siguiente comando usando tuberias para ir filtrando con gerp la información:
+
+	Comando: ls -R -l -A | grep -s bandit7 | grep -s bandit6 | grep -s 33
+	
+Descrioción de lo que hace el comando:
+
+ls -R -l -A: Con -R recorre todas los archivos que esten dentro de todas las carpetas del sistema, -A muestra los archivos coultos y -l la información de cada archivo.
+
+grep -s bandit7 | grep -s bandit6 | grep -s 33: Nos filtrará la información para buscar solo el archivo que tenga las caracteristicas que nos pedian en el ejercicio.
+
+Ya ejecutado el comando vemos que hay un archivo que cumple con las caracteristicas que nos piden, es el siguiente:
+
+-rw-r----- 1 bandit7 bandit6      33 Apr 23 18:04 bandit7.password
+
+Con esto sabemos que el archivo que buscamos se llama bandit7.password. Ahora ejecutaremos el siguiente comando para hacer una busqueda cumpleta en el sistema e intentar descunrir donde se encuentra ese archivo.
+
+	Comando: find . bandit7.password | grep -s bandit7.password
+
+Con el comando "find ." buscaremos dentro de todas las carpetas que estan a partir del directorio donde ejecutemos el comando y con grep filtramos la información con el nombre del archivo.
+
+	Resultado: ./var/lib/dpkg/info/bandit7.password
+
+Ya sabemos donde esta el archivo con la contrasela ahora solo la leemos con cat:
+
+	Comando: cat ./var/lib/dpkg/info/bandit7.password
+	
+	Contraseña: z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S

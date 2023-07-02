@@ -1,0 +1,12 @@
+En este nivel me piden que lea la contraseña que esta en un archivo llamado readme, para llear su contenido he usado el siguiente comenado "cat readme" y me muestra el siguiente contenido que es una contraseña:
+	Contraseña: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+Comandos que podríamos usar para encontrar y leer el el archivos son los siguientes:
+
+-ls: Nos permite mostrar todos los archivos del directorio actual.
+-pwd: Nos muestra el directorio donde estamos.
+-cd: Nos permite introducir el directorio donde queremos ir.
+-cat: Nos permite leer un archivo de texto.
+-file: Nos indica que tipo de archivo es.
+-du: Nos indica el tamaño del archivo.
+-find: Nos permite buscar un archivo dentro del directorio.
