@@ -1,4 +1,4 @@
-Para este nivel nos hemos tenido que logear con el usuario bandit7 y la contraseña TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+Para este nivel nos hemos tenido que logear con el usuario bandit8 y la contraseña TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 
 Para este ejercicio nos pide que encontremos la contraseña dentro del archivo data.txt que solo se encuentra una vez, lo que quiere decir que no se repite como 
 las demas.

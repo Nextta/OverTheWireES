@@ -1,0 +1,12 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit9 y la contraseña EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+Para este nivel nos pide que encontremos la contraseña en el archivo data.txt, en la linea legible que empiezan en "=".
+
+Para lograr lo que nos pide vamos a ejecutar el siguiente comando:
+
+    Comando: strings data.txt | sort | grep -si ==
+    
+    Descripción: Con el comando strings limpiamos el texto de caracteres raros, con sort los ordenamos para que los "=" esten juntos y con grep los filtramos
+                 para que solo muestre los textos que empiezan con "=="
+
+    Contraseña: G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
