@@ -1,0 +1,23 @@
+Para este nivel nos hemos tenido que logear con el usuario bandit9 y la contraseña 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+Para este nivel nos pide lo siguiente: La contraseña para el siguiente nivel se almacena en el archivo data.txt, donde todas las letras 
+minúsculas (a-z) y mayúsculas (A-Z) se han girado 13 posiciones.
+
+Lo primero que haremos es copiar el contenido del archivo data.txt y cambiamo los espacios por "-" qudando así:
+
+Gur-cnffjbeq-vf-WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi
+
+Ya teniendo el contenido de data, con el comando tr ejecutaremos lo siguiente:
+
+    Comando: tr 'A-MN-Za-mn-z' 'N-ZA-Mn-za-m' <<< Gur-cnffjbeq-vf-WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi
+
+    Descripción: El primer argumento 'A-MN-Za-mn-z' representa los caracteres que deben sustituirse. Este rango corresponde a las letras mayúsculas y minúsculas 
+    del alfabeto.
+
+    El segundo argumento 'N-ZA-Mn-za-m' representa los caracteres de sustitución. Este rango corresponde a las letras mayúsculas y minúsculas del alfabeto 
+    desplazadas 13 posiciones.
+
+    <<< es una cadena here que pasa la cadena de entrada "Gur-cnffjbeq-vf-WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi" al comando tr.
+
+    Contraseña: JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
